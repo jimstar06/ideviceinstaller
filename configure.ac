@@ -40,6 +40,9 @@ AC_FUNC_MALLOC
 AC_FUNC_REALLOC
 AC_CHECK_FUNCS([strdup strerror asprintf vasprintf])
 
+# Support large file
+AC_SYS_LARGEFILE
+
 # Check for lstat
 
 AC_MSG_CHECKING([whether lstat is available])
